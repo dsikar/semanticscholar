@@ -1,0 +1,159 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://city.ac.uk/kg/lab4/> .
+
+
+:airsim		rdf:type	:Article .
+:airsim		:title		"AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles" .
+:airsim		:topic		"Autonomous robot" .
+:airsim		:topic		"Physics engine" .
+:airsim		:topic		"Unreal Development Kit" .
+:airsim		:topic		"PhysX" .
+:airsim		:topic		"Machine learning" .
+:airsim		:topic		"Reinforcement learning" .
+:airsim		:topic		"Ray tracing (graphics)" .
+:airsim		:topic		"Deep learning" .
+:airsim		:topic		"Extensibility" .
+:airsim		:topic		"Artificial intelligence" .
+:airsim		:topic		"Modular design" .
+:airsim		:topic		"Algorithm" .
+:airsim		:topic		"Augmented reality" .
+:airsim		:topic		"Hardware-in-the-loop simulation" .
+:airsim		:topic		"Component-based software engineering" .
+:airsim		:topic		"Experiment" .
+:airsim		:topic		"Sensor" .
+:airsim		:topic		"Real-time clock" .
+:airsim		:topic		"Application programming interface" .
+:airsim		:topic		"Global Positioning System" .
+:airsim		:topic		"Elegant degradation" .
+:airsim		:topic		"Stepping level" .
+:airsim		:topic		"MAVLink" .
+:airsim		:topic		"Real-time operating system" .
+:airsim		:topic		"Dynamical simulation" .
+:airsim		:citation	"Classical mechanics" .
+:airsim		:citation	"Introduction to fluid mechanics" .
+:airsim		:citation	"History of fluid mechanics" .
+:airsim		:citation	"Numerical methods for ordinary differential equations" .
+:airsim		:citation	"Design and use paradigms for Gazebo, an open-source multi-robot simulator" .
+:airsim		:citation	"The GGM03 Mean Earth Gravity Model from GRACE" .
+:airsim		:citation	"The Earth's Magnetism: An Introduction for Geologists" .
+:airsim		:citation	"An introduction to inertial navigation" .
+:airsim		:citation	"PIXHAWK: A system for autonomous flight using onboard computer vision" .
+:airsim		:citation	"Comprehensive Simulation of Quadrotor UAVs Using ROS and Gazebo" .
+:airsim		:citation	"Numerical Methods for Ordinary Differential Equations" .
+:airsim		:citation	"A survey of inverse reinforcement learning techniques" .
+:airsim		:citation	"A survey of inverse reinforcement learning techniques" .
+:airsim		:citation	"Reinforcement learning in robotics: A survey" .
+:airsim		:citation	"Real Shading in Unreal Engine 4 by" .
+:airsim		:citation	"A Stochastic Approach to Noise Modeling for Barometric Altimeters" .
+:airsim		:citation	"An Invitation to Imitation" .
+:airsim		:citation	"The US/UK World Magnetic Model for 2015-2020" .
+:airsim		:citation	"RotorS—A Modular Gazebo MAV Simulator Framework" .
+:airsim		:citation	"ROSflight: A lightweight, inexpensive MAV research and development tool" .
+:airsim		:citation	"Practical Meteorology: An Algebra-based Survey of Atmospheric Science" .
+:airsim		:citation	"A survey of transfer learning" .
+:airsim		:citation	"A First Course In Differential Equations" .
+:baidu		rdf:type	:Article .
+:baidu		:title		"An Auto-tuning Framework for Autonomous Vehicles" .
+:baidu		:topic		"Reinforcement learning" .
+:baidu		:topic		"Autonomous car" .
+:baidu		:topic		"Autonomous robot" .
+:baidu		:topic		"Simulation" .
+:baidu		:topic		"Mathematical optimization" .
+:baidu		:topic		"Self-tuning" .
+:baidu		:topic		"Algorithm" .
+:baidu		:topic		"Corner case" .
+:baidu		:topic		"Feature extraction" .
+:baidu		:topic		"Loss function" .
+:baidu		:topic		"Online and offline" .
+:baidu		:topic		"Machine learning" .
+:baidu		:topic		"Procedural generation" .
+:baidu		:topic		"Value network" .
+:baidu		:topic		"Long tail" .
+:baidu		:topic		"Scalability" .
+:baidu		:topic		"Tracer" .
+:baidu		:topic		"Auto-Tune" .
+:baidu		:topic		"Drug vehicle" .
+:baidu		:citation	"Efficient Training of Artificial Neural Networks for Autonomous Navigation" .
+:baidu		:citation	"Algorithms for Inverse Reinforcement Learning" .
+:baidu		:citation	"Proceedings of the twenty-first international conference on Machine learning" .
+:baidu		:citation	"Apprenticeship learning via inverse reinforcement learning" .
+:baidu		:citation	"Learning a similarity metric discriminatively, with application to face verification" .
+:baidu		:citation	"Maximum margin planning" .
+:baidu		:citation	"Maximum Entropy Inverse Reinforcement Learning" .
+:baidu		:citation	"Autonomous Driving in Urban Environments: Boss and the Urban Challenge" .
+:baidu		:citation	"Junior: The Stanford Entry in the Urban Challenge" .
+:baidu		:citation	"Optimal trajectory generation for dynamic street scenarios in a Frenét Frame" .
+:baidu		:citation	"Efficient Reductions for Imitation Learning" .
+:baidu		:citation	"A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning" .
+:baidu		:citation	"Trajectory planning for Bertha — A local, continuous method" .
+:baidu		:citation	"End to End Learning for Self-Driving Cars" .
+:baidu		:citation	"A Fast Integrated Planning and Control Framework for Autonomous Driving via Imitation Learning" .
+:baidu		:citation	"Baidu Apollo EM Motion Planner" .
+:carla		rdf:type	:Article .
+:carla		:title		"CARLA: An Open Urban Driving Simulator" .
+:carla		:topic		"Driving simulator" .
+:carla		:topic		"Reinforcement learning" .
+:carla		:topic		"Autonomous car" .
+:carla		:topic		"Open-source software" .
+:carla		:topic		"Autonomous robot" .
+:carla		:topic		"Digital asset" .
+:carla		:topic		"Simulation" .
+:carla		:topic		"End-to-end principle" .
+:carla		:citation	"ALVINN: An Autonomous Land Vehicle in a Neural Network" .
+:carla		:citation	"Off-Road Obstacle Avoidance through End-to-End Learning" .
+:carla		:citation	"Learning from Demonstration for Autonomous Navigation in Complex Unstructured Terrain" .
+:carla		:citation	"Real-Time Camera Tracking: When is High Frame-Rate Best?" .
+:carla		:citation	"ImageNet classification with deep convolutional neural networks" .
+:carla		:citation	"Framework for Generation of Synthetic Ground Truth Data for Driver Assistance Applications" .
+:carla		:citation	"Robust PID Steering Control in Parameter Space for Highly Automated Driving" .
+:carla		:citation	"Adam: A Method for Stochastic Optimization" .
+:carla		:citation	"DeepDriving: Learning Affordance for Direct Perception in Autonomous Driving" .
+:carla		:citation	"Human-level control through deep reinforcement learning" .
+:carla		:citation	"Autonomous driving" .
+:carla		:citation	"High-fidelity simulation for evaluating robotic vision performance" .
+:carla		:citation	"A Benchmark and Simulator for UAV Tracking" .
+:carla		:citation	"Evaluating visual ADAS components on the COnGRATS dataset" .
+:carla		:citation	"Playing for Data: Ground Truth from Computer Games" .
+:carla		:citation	"Asynchronous Methods for Deep Reinforcement Learning" .
+:carla		:citation	"A Survey of Motion Planning and Control Techniques for Self-Driving Urban Vehicles" .
+:carla		:citation	"The SYNTHIA Dataset: A Large Collection of Synthetic Images for Semantic Segmentation of Urban Scenes" .
+:carla		:citation	"VirtualWorlds as Proxy for Multi-object Tracking Analysis" .
+:carla		:citation	"Benefit of large field-of-view cameras for visual odometry" .
+:carla		:citation	"Learning to Act by Predicting the Future" .
+:carla		:citation	"AutonoVi: Autonomous vehicle planning with dynamic maneuvers and traffic constraints" .
+:carla		:citation	"Playing for Benchmarks" .
+:carla		:citation	"Reinforcement Learning with Unsupervised Auxiliary Tasks" .
+:carla		:citation	"RefineNet: Multi-path Refinement Networks for High-Resolution Semantic Segmentation" .
+:carla		:citation	"Deep Reinforcement Learning that Matters" .
+:carla		:citation	"End-to-End Driving Via Conditional Imitation Learning" .
+:LGSVL		rdf:type	:Article .
+:LGSVL		:title		"LGSVL Simulator: A High Fidelity Simulator for Autonomous Driving" .
+:LGSVL		:topic		"Autonomous car" .
+:LGSVL		:topic		"Simulation" .
+:LGSVL		:topic		"Autonomous robot" .
+:LGSVL		:topic		"Open-source software" .
+:LGSVL		:topic		"Sensor" .
+:LGSVL		:topic		"End-to-end principle" .
+:LGSVL		:topic		"Algorithm" .
+:LGSVL		:citation	"ALVINN: An Autonomous Land Vehicle in a Neural Network" .
+:LGSVL		:citation	"Design and use paradigms for Gazebo, an open-source multi-robot simulator" .
+:LGSVL		:citation	"TORCS, The Open Racing Car Simulator" .
+:LGSVL		:citation	"Vision meets robotics: The KITTI dataset" .
+:LGSVL		:citation	"DeepDriving: Learning Affordance for Direct Perception in Autonomous Driving" .
+:LGSVL		:citation	"Playing for Data: Ground Truth from Computer Games" .
+:LGSVL		:citation	"Driving to safety: How many miles of driving would it take to demonstrate autonomous vehicle reliability?" .
+:LGSVL		:citation	"The Cityscapes Dataset for Semantic Urban Scene Understanding" .
+:LGSVL		:citation	"OpenAI Gym" .
+:LGSVL		:citation	"CARLA: An Open Urban Driving Simulator" .
+:LGSVL		:citation	"Driving in the Matrix: Can virtual worlds replace human-generated annotations for real world tasks?" .
+:LGSVL		:citation	"Playing for Benchmarks" .
+:LGSVL		:citation	"AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles" .
+:LGSVL		:citation	"BDD100K: A Diverse Driving Video Database with Scalable Annotation Tooling" .
+:LGSVL		:citation	"Lanelet2: A high-definition map framework for the future of automated driving" .
+:LGSVL		:citation	"Cooperative Ramp Merging System: Agent-Based Modeling and Simulation Using Game Engine" .
+:LGSVL		:citation	"Scenic: a language for scenario specification and scene generation" .
+:LGSVL		:citation	"Scalability in Perception for Autonomous Driving: Waymo Open Dataset" .
+:LGSVL		:citation	"nuScenes: A Multimodal Dataset for Autonomous Driving" .
+:LGSVL		:citation	"Formal Scenario-Based Testing of Autonomous Vehicles: From Simulation to the Real World" .
