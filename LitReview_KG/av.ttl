@@ -5,6 +5,7 @@
 
 
 :airsim		rdf:type	:Article .
+:airsim		rdf:label	"airsim" .
 :airsim		:title		"AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles" .
 :airsim		:topic		"Autonomous robot" .
 :airsim		:topic		"Physics engine" .
@@ -55,6 +56,7 @@
 :airsim		:citation	"A survey of transfer learning" .
 :airsim		:citation	"A First Course In Differential Equations" .
 :baidu		rdf:type	:Article .
+:baidu		rdf:label	"baidu" .
 :baidu		:title		"An Auto-tuning Framework for Autonomous Vehicles" .
 :baidu		:topic		"Reinforcement learning" .
 :baidu		:topic		"Autonomous car" .
@@ -92,6 +94,7 @@
 :baidu		:citation	"A Fast Integrated Planning and Control Framework for Autonomous Driving via Imitation Learning" .
 :baidu		:citation	"Baidu Apollo EM Motion Planner" .
 :carla		rdf:type	:Article .
+:carla		rdf:label	"carla" .
 :carla		:title		"CARLA: An Open Urban Driving Simulator" .
 :carla		:topic		"Driving simulator" .
 :carla		:topic		"Reinforcement learning" .
@@ -129,6 +132,7 @@
 :carla		:citation	"Deep Reinforcement Learning that Matters" .
 :carla		:citation	"End-to-End Driving Via Conditional Imitation Learning" .
 :LGSVL		rdf:type	:Article .
+:LGSVL		rdf:label	"LGSVL" .
 :LGSVL		:title		"LGSVL Simulator: A High Fidelity Simulator for Autonomous Driving" .
 :LGSVL		:topic		"Autonomous car" .
 :LGSVL		:topic		"Simulation" .
